@@ -6,6 +6,7 @@ import "./navbar.css";
         <div className="carrito">
             <FaShoppingCart size="40px"/>
             <BsCart4 />
+            <span className="badge">8</span>
         </div>
       )
     }

@@ -12,7 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.navbar {
+  background-image: url('./assets/assets/img\ 3\ frutos\ secos.jpeg');
+   background-image: url(./assets/assets/img\ 1\ harinas.jpeg);
+  background-size: cover;
+  height: 200px;
+}
 a {
   font-weight: 500;
   color: #646cff;

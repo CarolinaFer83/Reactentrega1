@@ -23,7 +23,6 @@ function Navbar() {
     </li>
 </ul>
 <CartWidget/>
-<BsCart4 />
 </div>
 )
 }
