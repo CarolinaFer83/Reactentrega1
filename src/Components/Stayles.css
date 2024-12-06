@@ -1,0 +1,12 @@
+#container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.card {
+    height: 230px;
+    width: 150px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    text-align: center;
+}

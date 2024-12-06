@@ -1,0 +1,109 @@
+.item-list-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.greeting {
+  text-align: center;
+  color: #445566;
+  margin-bottom: 2rem;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.producto-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+}
+
+.imagen-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #f5f5f5;
+}
+
+.imagen-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.producto-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #445566;
+}
+
+.descripcion {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.precio {
+  font-weight: bold;
+  color: #2196F3;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.stock-info {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  padding: 0.3rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-descripcion {
+  background: none;
+  border: none;
+  color: #2196F3;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.btn-comprar {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196F3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+  background-color: #1976D2;
+}
+
+.btn-comprar:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+} 

@@ -1,0 +1,40 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem;
+}
+
+.logo-image {
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.05);
+}
+
+.logo h1 {
+    color: #d35400;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #e67e22, #d35400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+    
+    .logo-image {
+        height: 70px;
+    }
+} 
